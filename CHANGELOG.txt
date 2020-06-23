@@ -33,7 +33,14 @@ CHANGE LOG
 
  Conveyors
  1)Armored Plastanium Conveyor
- 
+
  Zones
  1)Dead Thorium Sea
+
+ Patch 1.0.1
+
+1)Katana balance improvements.
+2)Laser railgun recoil fixed.Balance improvements.
+3)Exometal wall HP improvements.
+
 
