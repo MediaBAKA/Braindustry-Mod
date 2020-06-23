@@ -1,7 +1,7 @@
 name: Exometal Wall 
 description: Large Exometal wall,can creates lightings when shot.
 type: SurgeWall
-health: 4740
+health: 1680
 size: 1
 lightningChance: 0.09
 lightningDamage: 25

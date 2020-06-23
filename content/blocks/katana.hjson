@@ -3,22 +3,22 @@
  description: "Good turret with high performance.Made in Japan."
  type: ArtilleryTurret
  range: 390
- recoil: 4
- reload: 4
+ recoil: 1
+ reload: 10
  ammoUseEffect: shellEjectBig
  size: 4
- health: 880
+ health: 1080
  inaccuracy: 1
  rotatespeed: 5
  targetAir: true
  targetGround: true
  ammo: {
   graphenite: {
-   speed: 1.9
+   speed: 1.0
     type: ArtilleryBulletType
-   damage: 330
+   damage: 210
    lifetime: 171
-   reloadMultiplier: 1.0
+   reloadMultiplier: 3
    shootEffect: shootBig
    smokeEffect: shootBigSmoke
    bulletWeight: 3
@@ -30,11 +30,11 @@
    splashDamage: 100
   }
   plastanium: {
-            speed: 2.4
+            speed: 2.0
             type: ArtilleryBulletType
-            damage: 410
+            damage: 270
             lifetime: 120
-            reloadMultiplier: 0.
+            reloadMultiplier: 5
             bulletWidht: 4
             bulletHeight: 4
             shootEffect: shootBig
@@ -46,11 +46,11 @@
             type: missileBulletType
            }
   surge-alloy: {
-            speed: 4.0
+            speed: 2.5
              type: ArtilleryBulletType
             lifetime: 90
-            damage: 541
-            reloadMultiplier: 0.1
+            damage: 320
+            reloadMultiplier: 6
             bulletWidht: 7
             bulletHeight: 9
             shootEffect: shootBig
@@ -63,11 +63,11 @@
             status: burning
            }
   exometal: {
-            speed: 5.0
+            speed: 3.0
              type: ArtilleryBulletType
-            lifetime: 100
-            damage: 600
-            reloadMultiplier: 0.3
+            lifetime: 90
+            damage: 370
+            reloadMultiplier: 6
             bulletWidht: 6
             bulletHeight: 9
             shootEffect: shootBig
