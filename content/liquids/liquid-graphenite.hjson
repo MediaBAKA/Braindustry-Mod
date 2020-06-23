@@ -1,0 +1,6 @@
+name: Liquid Graphenite
+description: Strange slurry with high heat capacity.
+temperature: 0.5
+viscosity: 1.2
+effect: melting
+color: 5b5780

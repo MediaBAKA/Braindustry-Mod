@@ -1,0 +1,13 @@
+name: Exometal Wall 
+description: Large Exometal wall,can creates lightings when shot.
+type: SurgeWall
+health: 4740
+size: 1
+lightningChance: 0.09
+lightningDamage: 25
+lightningLength: 16
+requirements: [
+  exometal/30
+]
+category: defense
+research: odinum-wall-large

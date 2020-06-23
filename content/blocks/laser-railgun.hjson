@@ -1,0 +1,27 @@
+type: ChargeTurret
+name: "Laser Railgun"
+description: "A powerful turret that use Plasma and strong magnets like usually railgun." 
+health: 955
+size: 3
+recoil: 48.0
+reload: 50.0
+coolDown: 20.0
+chargeTime: 23
+range: 210
+chargeMaxDelay: 40
+shootType: meltdownLaser
+targetAir: false
+powerUse: 16.0
+ inaccuracy: 1
+ rotatespeed: 2.5
+ status: shocked
+ chargeEffects: 58.0
+ requirements: [
+  graphenite/145
+  exometal/70
+  metaglass/30
+  thorium/145
+  plastanium/180
+  ]
+ category: turret
+ research: spectre

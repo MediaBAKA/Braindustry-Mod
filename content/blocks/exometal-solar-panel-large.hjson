@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: Exometal Solar Panel Large
+description: 
+research: graphenite-solar-collector-large
+powerProduction: 9
+size: 3
+health: 560
+category: power
+requirements: [
+  exometal/170
+  silicon/125
+  odinum/160
+  graphenite/245
+]

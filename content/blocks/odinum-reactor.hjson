@@ -1,0 +1,30 @@
+type: ImpactReactor
+name: "Odinum Reactor"
+description: "Atomic fission and collision reactor.Consumes Odinum and Liquid Graphenite."
+size: 4
+hasPower: true
+hasLiquds: true
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 20
+itemDuration: 90
+powerProduction: 45
+plasmas: 3
+consumes: {
+ power: 11
+ liquid: liquid-graphenite/1
+  items: {
+   items: [
+    odinum/1
+    ]
+  }
+}
+requirements: [
+  metaglass/500
+  odinum/300
+  silicon/390
+  graphenite/170
+  thorium/200
+]
+category: power
+research: thorium-reactor

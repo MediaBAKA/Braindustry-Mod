@@ -1,0 +1,94 @@
+{
+ name: "Katana"
+ description: "Good turret with high performance.Made in Japan."
+ type: ArtilleryTurret
+ range: 390
+ recoil: 4
+ reload: 4
+ ammoUseEffect: shellEjectBig
+ size: 4
+ health: 880
+ inaccuracy: 1
+ rotatespeed: 5
+ targetAir: true
+ targetGround: true
+ ammo: {
+  graphenite: {
+   speed: 1.9
+    type: ArtilleryBulletType
+   damage: 330
+   lifetime: 171
+   reloadMultiplier: 1.0
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   bulletWeight: 3
+   bulletHeight: 2
+   backColor: #4d7582
+   frontColor: #64a1b5
+   ammoMultiplier: 2
+   splashDamageRadius: 4
+   splashDamage: 100
+  }
+  plastanium: {
+            speed: 2.4
+            type: ArtilleryBulletType
+            damage: 410
+            lifetime: 120
+            reloadMultiplier: 0.
+            bulletWidht: 4
+            bulletHeight: 4
+            shootEffect: shootBig
+   		 smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: 00FF55
+            frontColor: 00FF55
+            type: missileBulletType
+           }
+  surge-alloy: {
+            speed: 4.0
+             type: ArtilleryBulletType
+            lifetime: 90
+            damage: 541
+            reloadMultiplier: 0.1
+            bulletWidht: 7
+            bulletHeight: 9
+            shootEffect: shootBig
+   		 smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: FFD800
+            frontColor: FFD800
+            type: missileBulletType
+            status: burning
+           }
+  exometal: {
+            speed: 5.0
+             type: ArtilleryBulletType
+            lifetime: 100
+            damage: 600
+            reloadMultiplier: 0.3
+            bulletWidht: 6
+            bulletHeight: 9
+            shootEffect: shootBig
+       smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 3
+            backColor: #fbff00
+            frontColor: #fbff00
+            type: missileBulletType
+            status: burning
+           }
+ }
+ requirements: [
+  exometal/130
+  odinum/100
+  graphenite/150
+  plastanium/150
+  silicon/65
+  lead/170
+  surge-alloy/145
+ ]
+ category: turret
+ research: meltdown
+}

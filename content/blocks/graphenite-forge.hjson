@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: Graphenite Forge
+description: Combines graphite,titanium and silicon to produce graphenite.
+liquidCapacity: 0
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 70
+updateEffect: plasticburn
+consumes: {
+  power: 0.8
+    items:{
+     items:[
+      graphite/1
+      silicon/1
+      titanium/1
+ ]
+}
+}
+requirements: [
+  lead/100
+  thorium/20
+  silicon/60
+  graphite/50
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: graphenite/1

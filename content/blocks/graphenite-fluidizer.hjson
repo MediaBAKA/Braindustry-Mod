@@ -1,0 +1,30 @@
+type: genericCrafter
+name: Graphenite Fluidizer
+description: A fluidizer that turns graphenite into slurry using strong pressure.Consumes water and graphenite.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 50
+updateEffect: steam
+consumes: {
+  power: 2
+  liquid: water/0.5
+  items: {
+    items: [
+      graphenite/1
+  ]
+ }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/70
+  titanium/50
+  graphenite/85
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.2
+outputLiquid: liquid-graphenite/6

@@ -1,0 +1,29 @@
+name: Ultimate Cultivator
+description: With the help of very strong microorganisms turns Plastanium into Exometal.
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+ power: 3
+  liquid: water/0.5
+   items: {
+    items: [
+     plastanium/1
+    ]
+  }
+}
+requirements: [
+  lead/300
+  metaglass/150
+  silicon/340
+  graphenite/300
+  odinum/100
+]
+category: crafting
+research: graphenite-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: exometal/1

@@ -1,0 +1,13 @@
+name: Exometal Wall Large
+description: Large Exometal wall,can creates lightings when shot.
+type: SurgeWall
+health: 4740
+size: 2
+lightningChance: 0.09
+lightningDamage: 35
+lightningLength: 21
+requirements: [
+  exometal/60
+]
+category: defense
+research: exometal-wall

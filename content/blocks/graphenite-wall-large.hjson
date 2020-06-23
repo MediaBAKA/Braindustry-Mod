@@ -1,0 +1,10 @@
+name: Large Graphenite Wall
+description: Big version of standard graphenite wall.
+type: Wall
+health: 3040
+size: 2
+requirements: [
+  graphenite/40
+]
+category: defense
+research: thorium-wall

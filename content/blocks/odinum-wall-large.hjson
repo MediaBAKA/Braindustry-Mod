@@ -1,0 +1,10 @@
+name: Odinum Wall Large
+description: Bigger version of standard odinum wall,and too little bit radioactive.
+type: Wall
+health: 3540
+size: 2
+requirements: [
+  odinum/45
+]
+category: defense
+research: graphenite-wall-large

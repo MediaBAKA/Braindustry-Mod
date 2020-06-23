@@ -1,0 +1,36 @@
+CHANGE LOG
+
+1.0
+ 
+ Materials
+ 1)Graphenite
+ 2)Odinum
+ 3)Exometal
+ 
+ Liquids
+ 1)Liquid Graphenite
+ 
+ Power
+ 1)Graphenite Solar Collector Large
+ 2)Exometal Solar Panel Large
+ 3)Odinum reactor
+ 
+ Factories
+ 1)Graphenite Forge
+ 2)Ultimate Cultivator
+
+ Turrets
+ 1)Katana
+ 2)Laser Railgun
+ 
+ Drills
+ 1)Hydraulic Drill
+ 
+ Walls
+ 1)Graphenite Wall and Large version
+ 2)Odinum Wall and Large version
+ 3)Exometal Wall and Large version
+
+ Conveyors
+ 1)Armored Plastanium Conveyor
+

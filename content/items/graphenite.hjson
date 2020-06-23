@@ -1,0 +1,5 @@
+type: material
+name: Graphenite
+description: Base material for high-tec structures.
+cost: 2
+color: 866599
