@@ -1,7 +1,7 @@
 type: material
 name: Odinum
 description: A radioactive resource.
-hardness: 2
+hardness: 4
 radioactiveness: 2
 cost: 2
 color: ffffff
